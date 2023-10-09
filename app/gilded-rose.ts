@@ -19,6 +19,7 @@ export class GildedRose {
     for (let i = 0; i < this.items.length; i++) {
       const itemProps = this.itemsService.getItemPropertiesByItemName(this.items[i].name);
       this.qualityService.updateQuality(this.items[i], itemProps);
+      this.items[i].sellIn--;
     }
 
     return this.items;
