@@ -4,6 +4,10 @@ node_modules
 typings
 app/**/*.js
 app/**/*.js.map
+models/**/*.js
+models/**/*.js.map
+services/**/*.js
+services/**/*.js.map
 test/**/*.js
 test/**/*.js.map
 coverage
